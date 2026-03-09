@@ -1,0 +1,12 @@
+{
+  name: gobot-board-agents,
+  version: 1.0.0,
+  description: Plug-and-play board agent collection for the gobot multi-agent framework,
+  type: module,
+  scripts: {
+    typecheck: tsc --noEmit
+  },
+  devDependencies: {
+    typescript: ^5.0.0
+  }
+}
